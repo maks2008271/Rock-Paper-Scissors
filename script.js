@@ -61,7 +61,7 @@ function playGame(humanSelection) {
                 }
         }
     
-        resultSpan.textContent = result + ', your choice: ' + humanChoice + ", computer choice:" + computerChoice; // alert (`${result}, your choice: ${humanChoice}, computer choice: ${computerChoice}. Score: ${humanScore} | ${computerScore}`);
+        resultSpan.textContent = result + ', your choice: ' + humanChoice + ", computer choice:" + computerChoice;
     }
 
     playRound(humanSelection, computerSelection);
